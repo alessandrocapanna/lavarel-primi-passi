@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 20px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  color: black;
+}
+
+header ul li img {
+  height: 70px;
+}
+
+header ul li button {
+  padding: 12px 20px;
+  background-color: #73d462;
+  border-radius: 5px;
+  border: none;
+}
+
+header ul li button a {
+  color: white;
+}
+
+footer {
+  background-color: #1c3d58;
+  color: white;
+  height: 150px;
+}
+
+footer a {
+  color: white;
+}
+

@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+header {
+  padding: 20px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+      list-style-type: none;
+      a {
+        color: black;
+      }
+      img {
+        height: 70px;
+      }
+      button {
+        padding: 12px 20px;
+        background-color: #73d462;
+        border-radius: 5px;
+        border: none;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #1c3d58;
+  color: white;
+  height: 150px;
+  a {
+    color: white;
+  }
+}
