@@ -7,7 +7,12 @@ a {
   text-decoration: none;
 }
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 20px;
+  background-color: white;
   ul {
     display: flex;
     justify-content: space-between;
@@ -33,6 +38,43 @@ header {
     }
   }
 }
+
+main {
+  background-color: #e8ebf1;
+  padding-top: 114px;
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    #remote {
+      display: flex;
+      align-items: center;
+      color: #1c3d58;
+      height: 350px;
+      img {
+        width: 40%;
+      }
+    }
+    .domande {
+      display: flex;
+      .titolo {
+        background-color: white;
+        font-size: 27px;
+      }
+      .sx,.dx{
+        width: 50%;
+      }
+      .dx{
+        color:white;
+        background-color:#1c3d58;
+      }
+    }
+  }
+  section > * {
+    padding: 30px;
+  }
+}
+
+
 
 footer {
   background-color: #1c3d58;

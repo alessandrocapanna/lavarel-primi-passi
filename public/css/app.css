@@ -11,7 +11,12 @@ a {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 20px;
+  background-color: white;
 }
 
 header ul {
@@ -41,6 +46,50 @@ header ul li button {
 
 header ul li button a {
   color: white;
+}
+
+main {
+  background-color: #e8ebf1;
+  padding-top: 114px;
+}
+
+main .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .container #remote {
+  display: flex;
+  align-items: center;
+  color: #1c3d58;
+  height: 350px;
+}
+
+main .container #remote img {
+  width: 40%;
+}
+
+main .container .domande {
+  display: flex;
+}
+
+main .container .domande .titolo {
+  background-color: white;
+  font-size: 27px;
+}
+
+main .container .domande .sx,
+main .container .domande .dx {
+  width: 50%;
+}
+
+main .container .domande .dx {
+  color: white;
+  background-color: #1c3d58;
+}
+
+main section > * {
+  padding: 30px;
 }
 
 footer {
